@@ -1,0 +1,271 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00c6ff,#43e97b);
+    min-height:100vh;
+    color:#333;
+}
+
+/* Header */
+
+header{
+    width:100%;
+    background:#0d6efd;
+    color:#fff;
+    padding:18px 40px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo i{
+    font-size:35px;
+}
+
+.logo h2{
+    font-size:28px;
+}
+
+/* Cards */
+
+.cards{
+    width:90%;
+    margin:30px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,.9);
+    backdrop-filter:blur(10px);
+    border-radius:18px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card i{
+    font-size:45px;
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+.card h3{
+    color:#555;
+    margin-bottom:10px;
+}
+
+.card h2{
+    color:#0d6efd;
+    font-size:32px;
+}
+
+/* Search */
+
+.controls{
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.controls input,
+.controls select{
+    padding:12px 15px;
+    border:none;
+    border-radius:10px;
+    width:250px;
+    font-size:16px;
+    outline:none;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+.controls p{
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Table */
+
+.table-section{
+    width:90%;
+    margin:auto;
+    overflow-x:auto;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+    margin-bottom:40px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background:#0d6efd;
+    color:white;
+}
+
+th{
+    padding:16px;
+    text-align:center;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+tbody tr:hover{
+    background:#f4f8ff;
+}
+
+/* Status */
+
+.normal{
+    color:green;
+    font-weight:bold;
+}
+
+.warning{
+    color:orange;
+    font-weight:bold;
+}
+
+.critical{
+    color:red;
+    font-weight:bold;
+}
+
+/* Button */
+
+button{
+    padding:8px 18px;
+    border:none;
+    border-radius:8px;
+    background:#0d6efd;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#084298;
+}
+
+/* Popup */
+
+.popup{
+    display:none;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.5);
+    justify-content:center;
+    align-items:center;
+    z-index:100;
+}
+
+.popup-content{
+    width:420px;
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    position:relative;
+    animation:popup .3s ease;
+}
+
+@keyframes popup{
+    from{
+        transform:scale(.8);
+        opacity:0;
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+.close{
+    position:absolute;
+    top:12px;
+    right:18px;
+    font-size:28px;
+    cursor:pointer;
+    color:red;
+}
+
+.popup h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#0d6efd;
+}
+
+.details p{
+    margin:12px 0;
+    font-size:17px;
+}
+
+/* Footer */
+
+footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.logo h2{
+    font-size:22px;
+}
+
+.controls{
+    flex-direction:column;
+    align-items:stretch;
+}
+
+.controls input,
+.controls select{
+    width:100%;
+}
+
+.popup-content{
+    width:90%;
+}
+
+table{
+    min-width:900px;
+}
+
+}
