@@ -161,6 +161,11 @@ tbody tr:hover{
     font-weight:bold;
 }
 
+.fault{
+    color:purple;
+    font-weight:bold;
+}
+
 /* Button */
 
 button{
@@ -246,26 +251,26 @@ footer{
 
 @media(max-width:768px){
 
-.logo h2{
-    font-size:22px;
-}
+    .logo h2{
+        font-size:22px;
+    }
 
-.controls{
-    flex-direction:column;
-    align-items:stretch;
-}
+    .controls{
+        flex-direction:column;
+        align-items:stretch;
+    }
 
-.controls input,
-.controls select{
-    width:100%;
-}
+    .controls input,
+    .controls select{
+        width:100%;
+    }
 
-.popup-content{
-    width:90%;
-}
+    .popup-content{
+        width:90%;
+    }
 
-table{
-    min-width:900px;
-}
+    table{
+        min-width:900px;
+    }
 
 }
