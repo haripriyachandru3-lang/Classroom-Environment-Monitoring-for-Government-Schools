@@ -1,0 +1,322 @@
+[
+  {
+    "reading_id": 1,
+    "room_id": "Room-101",
+    "temperature_c": 28,
+    "air_quality": 65,
+    "period": "Period 1",
+    "recorded_at": "2026-07-27 09:00 AM"
+  },
+  {
+    "reading_id": 2,
+    "room_id": "Room-102",
+    "temperature_c": 29,
+    "air_quality": 72,
+    "period": "Period 1",
+    "recorded_at": "2026-07-27 09:00 AM"
+  },
+  {
+    "reading_id": 3,
+    "room_id": "Room-103",
+    "temperature_c": 31,
+    "air_quality": 95,
+    "period": "Period 1",
+    "recorded_at": "2026-07-27 09:00 AM"
+  },
+  {
+    "reading_id": 4,
+    "room_id": "Room-104",
+    "temperature_c": 36,
+    "air_quality": 160,
+    "period": "Period 1",
+    "recorded_at": "2026-07-27 09:00 AM"
+  },
+  {
+    "reading_id": 5,
+    "room_id": "Room-105",
+    "temperature_c": 30,
+    "air_quality": 88,
+    "period": "Period 1",
+    "recorded_at": "2026-07-27 09:00 AM"
+  },
+  {
+    "reading_id": 6,
+    "room_id": "Room-101",
+    "temperature_c": 29,
+    "air_quality": 70,
+    "period": "Period 2",
+    "recorded_at": "2026-07-27 10:00 AM"
+  },
+  {
+    "reading_id": 7,
+    "room_id": "Room-102",
+    "temperature_c": 30,
+    "air_quality": 84,
+    "period": "Period 2",
+    "recorded_at": "2026-07-27 10:00 AM"
+  },
+  {
+    "reading_id": 8,
+    "room_id": "Room-103",
+    "temperature_c": 33,
+    "air_quality": 110,
+    "period": "Period 2",
+    "recorded_at": "2026-07-27 10:00 AM"
+  },
+  {
+    "reading_id": 9,
+    "room_id": "Room-104",
+    "temperature_c": 38,
+    "air_quality": 170,
+    "period": "Period 2",
+    "recorded_at": "2026-07-27 10:00 AM"
+  },
+  {
+    "reading_id": 10,
+    "room_id": "Room-105",
+    "temperature_c": 31,
+    "air_quality": 96,
+    "period": "Period 2",
+    "recorded_at": "2026-07-27 10:00 AM"
+  },
+  {
+    "reading_id": 11,
+    "room_id": "Room-101",
+    "temperature_c": 30,
+    "air_quality": 76,
+    "period": "Period 3",
+    "recorded_at": "2026-07-27 11:00 AM"
+  },
+  {
+    "reading_id": 12,
+    "room_id": "Room-102",
+    "temperature_c": 32,
+    "air_quality": 101,
+    "period": "Period 3",
+    "recorded_at": "2026-07-27 11:00 AM"
+  },
+  {
+    "reading_id": 13,
+    "room_id": "Room-103",
+    "temperature_c": 34,
+    "air_quality": 120,
+    "period": "Period 3",
+    "recorded_at": "2026-07-27 11:00 AM"
+  },
+  {
+    "reading_id": 14,
+    "room_id": "Room-104",
+    "temperature_c": 39,
+    "air_quality": 180,
+    "period": "Period 3",
+    "recorded_at": "2026-07-27 11:00 AM"
+  },
+  {
+    "reading_id": 15,
+    "room_id": "Room-105",
+    "temperature_c": 32,
+    "air_quality": 100,
+    "period": "Period 3",
+    "recorded_at": "2026-07-27 11:00 AM"
+  },
+  {
+    "reading_id": 16,
+    "room_id": "Room-101",
+    "temperature_c": 31,
+    "air_quality": 82,
+    "period": "Period 4",
+    "recorded_at": "2026-07-27 12:00 PM"
+  },
+  {
+    "reading_id": 17,
+    "room_id": "Room-102",
+    "temperature_c": 33,
+    "air_quality": 108,
+    "period": "Period 4",
+    "recorded_at": "2026-07-27 12:00 PM"
+  },
+  {
+    "reading_id": 18,
+    "room_id": "Room-103",
+    "temperature_c": 35,
+    "air_quality": 135,
+    "period": "Period 4",
+    "recorded_at": "2026-07-27 12:00 PM"
+  },
+  {
+    "reading_id": 19,
+    "room_id": "Room-104",
+    "temperature_c": 40,
+    "air_quality": 190,
+    "period": "Period 4",
+    "recorded_at": "2026-07-27 12:00 PM"
+  },
+  {
+    "reading_id": 20,
+    "room_id": "Room-105",
+    "temperature_c": 34,
+    "air_quality": 112,
+    "period": "Period 4",
+    "recorded_at": "2026-07-27 12:00 PM"
+  },
+  {
+    "reading_id": 21,
+    "room_id": "Room-101",
+    "temperature_c": 29,
+    "air_quality": 74,
+    "period": "Period 5",
+    "recorded_at": "2026-07-27 01:00 PM"
+  },
+  {
+    "reading_id": 22,
+    "room_id": "Room-102",
+    "temperature_c": 31,
+    "air_quality": 92,
+    "period": "Period 5",
+    "recorded_at": "2026-07-27 01:00 PM"
+  },
+  {
+    "reading_id": 23,
+    "room_id": "Room-103",
+    "temperature_c": 36,
+    "air_quality": 145,
+    "period": "Period 5",
+    "recorded_at": "2026-07-27 01:00 PM"
+  },
+  {
+    "reading_id": 24,
+    "room_id": "Room-104",
+    "temperature_c": 41,
+    "air_quality": 200,
+    "period": "Period 5",
+    "recorded_at": "2026-07-27 01:00 PM"
+  },
+  {
+    "reading_id": 25,
+    "room_id": "Room-105",
+    "temperature_c": 33,
+    "air_quality": 105,
+    "period": "Period 5",
+    "recorded_at": "2026-07-27 01:00 PM"
+  },
+  {
+    "reading_id": 26,
+    "room_id": "Room-101",
+    "temperature_c": 30,
+    "air_quality": 80,
+    "period": "Period 6",
+    "recorded_at": "2026-07-27 02:00 PM"
+  },
+  {
+    "reading_id": 27,
+    "room_id": "Room-102",
+    "temperature_c": 32,
+    "air_quality": 98,
+    "period": "Period 6",
+    "recorded_at": "2026-07-27 02:00 PM"
+  },
+  {
+    "reading_id": 28,
+    "room_id": "Room-103",
+    "temperature_c": 37,
+    "air_quality": 150,
+    "period": "Period 6",
+    "recorded_at": "2026-07-27 02:00 PM"
+  },
+  {
+    "reading_id": 29,
+    "room_id": "Room-104",
+    "temperature_c": 42,
+    "air_quality": 210,
+    "period": "Period 6",
+    "recorded_at": "2026-07-27 02:00 PM"
+  },
+  {
+    "reading_id": 30,
+    "room_id": "Room-105",
+    "temperature_c": 34,
+    "air_quality": 110,
+    "period": "Period 6",
+    "recorded_at": "2026-07-27 02:00 PM"
+  },
+  {
+    "reading_id": 31,
+    "room_id": "Room-101",
+    "temperature_c": 29,
+    "air_quality": 75,
+    "period": "Period 7",
+    "recorded_at": "2026-07-27 03:00 PM"
+  },
+  {
+    "reading_id": 32,
+    "room_id": "Room-102",
+    "temperature_c": 31,
+    "air_quality": 95,
+    "period": "Period 7",
+    "recorded_at": "2026-07-27 03:00 PM"
+  },
+  {
+    "reading_id": 33,
+    "room_id": "Room-103",
+    "temperature_c": 35,
+    "air_quality": 140,
+    "period": "Period 7",
+    "recorded_at": "2026-07-27 03:00 PM"
+  },
+  {
+    "reading_id": 34,
+    "room_id": "Room-104",
+    "temperature_c": 39,
+    "air_quality": 175,
+    "period": "Period 7",
+    "recorded_at": "2026-07-27 03:00 PM"
+  },
+  {
+    "reading_id": 35,
+    "room_id": "Room-105",
+    "temperature_c": 33,
+    "air_quality": 104,
+    "period": "Period 7",
+    "recorded_at": "2026-07-27 03:00 PM"
+  },
+  {
+    "reading_id": 36,
+    "room_id": "Room-101",
+    "temperature_c": 30,
+    "air_quality": 78,
+    "period": "Period 8",
+    "recorded_at": "2026-07-27 04:00 PM"
+  },
+  {
+    "reading_id": 37,
+    "room_id": "Room-102",
+    "temperature_c": null,
+    "air_quality": 90,
+    "period": "Period 8",
+    "recorded_at": "2026-07-27 04:00 PM"
+  },
+  {
+    "reading_id": 38,
+    "room_id": "Room-103",
+    "temperature_c": 99,
+    "air_quality": 130,
+    "period": "Period 8",
+    "recorded_at": "2026-07-27 04:00 PM"
+  },
+  {
+    "reading_id": 39,
+    "room_id": "Room-104",
+    "temperature_c": 25,
+    "air_quality": -5,
+    "period": "Period 8",
+    "recorded_at": "2026-07-27 04:00 PM"
+  },
+  {
+    "reading_id": 40,
+    "room_id": "Room-105",
+    "temperature_c": 32,
+    "air_quality": 100,
+    "period": "Period 8",
+    "recorded_at": "2026-07-27 04:00 PM"
+  }
+]
