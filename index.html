@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Environment Monitoring</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-school"></i>
+            <h2>Government School Classroom Monitoring</h2>
+        </div>
+    </header>
+
+    <!-- Summary Cards -->
+    <section class="cards">
+
+        <div class="card">
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+            <h3>Average Temperature</h3>
+            <h2 id="avgTemp">0°C</h2>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-wind"></i>
+            <h3>Average Air Quality</h3>
+            <h2 id="avgAir">0</h2>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <h3>Critical Rooms</h3>
+            <h2 id="criticalCount">0</h2>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-building"></i>
+            <h3>Total Readings</h3>
+            <h2 id="totalReadings">0</h2>
+        </div>
+
+    </section>
+
+    <!-- Search & Filter -->
+    <section class="controls">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="🔍 Search Room ID..."
+        >
+
+        <select id="roomFilter">
+            <option value="">All Rooms</option>
+            <option value="Room-101">Room-101</option>
+            <option value="Room-102">Room-102</option>
+            <option value="Room-103">Room-103</option>
+            <option value="Room-104">Room-104</option>
+            <option value="Room-105">Room-105</option>
+        </select>
+
+        <p>
+            Records Displayed :
+            <span id="recordCount">0</span>
+        </p>
+
+    </section>
+
+    <!-- Table -->
+    <section class="table-section">
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Reading ID</th>
+                    <th>Room ID</th>
+                    <th>Temperature</th>
+                    <th>Air Quality</th>
+                    <th>Period</th>
+                    <th>Recorded At</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="tableBody">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- Details Popup -->
+
+    <div class="popup" id="popup">
+
+        <div class="popup-content">
+
+            <span class="close" id="closeBtn">&times;</span>
+
+            <h2>Reading Details</h2>
+
+            <div class="details">
+
+                <p><strong>Reading ID :</strong> <span id="dId"></span></p>
+
+                <p><strong>Room ID :</strong> <span id="dRoom"></span></p>
+
+                <p><strong>Temperature :</strong> <span id="dTemp"></span></p>
+
+                <p><strong>Air Quality :</strong> <span id="dAir"></span></p>
+
+                <p><strong>Period :</strong> <span id="dPeriod"></span></p>
+
+                <p><strong>Recorded At :</strong> <span id="dTime"></span></p>
+
+                <p><strong>Status :</strong> <span id="dStatus"></span></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Classroom Environment Monitoring System |
+            Developed by Haripriya R
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
